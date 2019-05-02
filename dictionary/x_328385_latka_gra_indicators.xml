@@ -13,7 +13,7 @@
         <element label="Object Markings Ref" max_length="4000" name="object_markings_ref" type="glide_list"/>
         <element label="Pattern" max_length="4000" name="pattern" type="glide_list"/>
         <element label="Revoked" max_length="40" name="revoked" type="boolean"/>
-        <element label="Type" max_length="40" name="type" type="string"/>
+        <element default="indicator" label="Type" max_length="40" name="type" type="string"/>
         <element label="Valid From" max_length="40" name="valid_from" type="glide_date_time"/>
         <element label="Valid Until" max_length="40" name="valid_until" type="glide_date_time"/>
         <index name="index">

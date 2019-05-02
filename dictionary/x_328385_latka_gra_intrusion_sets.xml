@@ -18,7 +18,7 @@
         <element label="Resource Level" max_length="255" name="resource_level" type="string"/>
         <element label="Revoked" max_length="40" name="revoked" type="boolean"/>
         <element label="Secondary Motivations" max_length="4000" name="secondary_motivations" type="glide_list"/>
-        <element label="Type" max_length="40" name="type" type="string"/>
+        <element default="intrusion-set" label="Type" max_length="40" name="type" type="string"/>
         <index name="index">
             <element name="created_by_ref"/>
         </index>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tools" max_length="40" name="x_328385_latka_gra_tools" type="collection">
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Created By Ref" max_length="32" name="created_by_ref" reference="x_328385_taxii_dri_identities" type="reference"/>
+        <element label="Description" max_length="1400" name="description" type="string"/>
+        <element label="External References" max_length="4000" name="external_references" type="glide_list"/>
+        <element label="Granular Markings" max_length="4000" name="granular_markings" type="glide_list"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Kill Chain Phases" max_length="4000" name="kill_chain_phases" type="glide_list"/>
+        <element label="Labels" max_length="4000" name="labels" type="glide_list"/>
+        <element label="Modified" max_length="40" name="modified" type="glide_date_time"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Object Markings Ref" max_length="4000" name="object_markings_ref" type="glide_list"/>
+        <element label="Revoked" max_length="40" name="revoked" type="boolean"/>
+        <element label="Tool Version" max_length="40" name="tool_version" type="string"/>
+        <element default="tool" label="Type" max_length="40" name="type" type="string"/>
+        <index name="index">
+            <element name="created_by_ref"/>
+        </index>
+    </element>
+</database>
